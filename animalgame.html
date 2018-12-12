@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animal Game</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://unloop.edu/jquery-3.1.1.js"></script>
+    <script src='game.js'></script>
+</head>
+
+<body>
+    <header class="bg-info">
+        <h1>20 Questions</h1>
+    </header>
+    <div class="phase-1 game-intro">
+        <p class="lead">
+            Think of an Animal and I will try to guess it.
+        </p>
+        <h2>
+        	Have you thought of your animal yet? 
+		</h2>
+        <button class="btn-lg btn-block btn-primary">Yes, let's play!</button>
+    </div>
+    <div class="phase-2">
+        <p>Hmmmm...</p>
+        <p class="question lead">
+        </p>
+        <button class="btn-lg btn-success yes">Yes</button>
+        <button class="btn-lg btn-danger no">No</button>
+    </div>
+    <div class="phase-3">
+        <p>I guess that your animal is: </p>
+        <p class="answer lead">
+        </p>
+        <p>Am I right?</p>
+        <button class="btn-lg btn-success cpu-right">Wow, you are right!</button>
+        <button class="btn-lg btn-danger cpu-wrong">That wasn't it.</button>
+    </div>
+</body>
+
+</html>
